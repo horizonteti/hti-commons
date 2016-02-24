@@ -6,6 +6,11 @@ import java.util.Map;
 import net.sf.jasperreports.engine.JRDataSource;
 import net.sf.jasperreports.engine.data.JRMapCollectionDataSource;
 
+/**
+ * Clase Utilitaria para exportar datos en una lista de Map.
+ * @author Jorge
+ *
+ */
 public class MapDataListReposrtExporter extends DataListReportExporter<Map<String, ?>> {
 
   public MapDataListReposrtExporter(List<Map<String, ?>> data, String reportSource, Map params) {

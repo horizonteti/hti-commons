@@ -4,6 +4,13 @@ import java.util.List;
 
 import org.springframework.core.convert.converter.Converter;
 
+/**
+ * Interfaz de conversión de datos.
+ * @author Jorge
+ *
+ * @param <S> clase fuente de la conversión
+ * @param <T> clase destino de la conversión
+ */
 public interface DataConverter<S, T> extends Converter<S, T> {
 
   /**
